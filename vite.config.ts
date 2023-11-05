@@ -10,6 +10,7 @@ const envVars = loadEnv("", process.cwd());
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "", // 设置静态资源使用相对路径，否则 electron 访问会出错
   server: {
     port: Number(envVars.VITE_APP_PORT || 3000),
     // open the browser
