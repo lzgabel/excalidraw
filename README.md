@@ -97,6 +97,12 @@ or via yarn
 yarn add react react-dom @excalidraw/excalidraw
 ```
 
+build desktop
+
+```shell
+yarn install && yarn build:desktop
+```
+
 Don't forget to check out our [Documentation](https://docs.excalidraw.com)!
 
 ## Contributing

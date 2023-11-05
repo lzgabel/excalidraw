@@ -1,0 +1,52 @@
+{
+  "appId": "com.excalidraw.Excalidraw",
+  "productName": "Excalidraw",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    {
+      "filter": [
+        "**",
+        "!**/__tests__",
+        "!test",
+        "!dev.js"
+      ]
+    }
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "zip",
+        "arch": [ "x64", "ia32" ]
+      }
+    ]
+  },
+  "linux": {
+    "category": "Development",
+    "target": [
+      {
+        "target": "tar.gz",
+        "arch": [ "x64" ]
+      }
+    ]
+  },
+  "mac": {
+    "hardenedRuntime": true,
+    "target": [
+      {
+        "target": "dmg",
+        "arch": [ "x64", "arm64"]
+      }
+    ]
+  },
+  "fileAssociations": [
+    {
+      "ext": "excalidraw",
+      "name": "Excalidraw",
+      "description": "Excalidraw file",
+      "role": "Editor",
+      "mimeType": "application/json"
+    }
+  ]
+}
