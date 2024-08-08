@@ -15,6 +15,7 @@
     }
   ],
   "win": {
+    "icon": "build/icon.icns",
     "target": [
       {
         "target": "zip",
@@ -23,6 +24,7 @@
     ]
   },
   "linux": {
+    "icon": "build/icon.icns",
     "category": "Development",
     "target": [
       {
@@ -32,6 +34,7 @@
     ]
   },
   "mac": {
+    "icon": "build/icon.icns",
     "hardenedRuntime": true,
     "target": [
       {
@@ -45,8 +48,9 @@
       "ext": "excalidraw",
       "name": "Excalidraw",
       "description": "Excalidraw file",
+      "icon": "build/icon.png",
       "role": "Editor",
-      "mimeType": "application/json"
+      "mimeType": "application/vnd.excalidraw+json"
     }
   ]
 }
